@@ -1,0 +1,67 @@
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 50%;
+    }
+
+    .form {
+        flex-basis: 60%;
+    }
+
+    .weather-ui {
+        padding: 1.5rem 3.5rem;
+        border-radius: .8rem;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .cities {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    html {
+        font-size: 42%;
+    }
+
+    .cities {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 40%;
+    }
+
+    body {
+        padding: 1rem 2rem;
+    }
+
+    .header {
+        font-size: 3.2rem;
+        letter-spacing: .2rem;
+    }
+
+    .form {
+        flex-basis: 95%;
+    }
+
+    .weather-ui {
+        padding: 1.2rem 1.8rem;
+    }
+
+    .weather-more-details {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .cities {
+        display: block;
+    }
+
+    .city {
+        margin-top: 4rem;
+    }
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Weather app</title>
+
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="header mt-sm">Weather app ☀️</h1>
+
+    <div class="form-container mt-sm">
+      <form class="form">
+        <input
+          value="mumbai"
+          type="text"
+          id="city"
+          class="city-input"
+          placeholder="Enter your city"
+        />
+
+        <div>
+          <button class="submit-btn mt-x-sm">Search</button>
+        </div>
+      </form>
+    </div>
+
+    <main class="main mt-sm">
+      <div class="weather-ui">
+        <h2 class="weather-location">
+          <span class="location-name">Country</span> Weather
+        </h2>
+
+        <h3 class="weather-temp mt-x-sm">00 °c</h3>
+
+        <p class="weather-temp-feels-like">
+          Feels like: <span class="feels-like">00.00</span>
+        </p>
+
+        <p class="weather-description mt-x-sm">
+          Description:
+          <span class="description">Unknown</span> <span class="emoji">😶</span>
+        </p>
+
+        <p class="temp-description mt-x-sm">
+          Weather now: <span> Lorem ipsum dolor sit amet. </span>
+        </p>
+
+        <hr class="mt-sm" />
+
+        <div class="weather-more-details mt-sm">
+          <h4>Wind: <span class="wind">0.00</span></h4>
+          <h4>Visibility: <span class="visibility">0000</span></h4>
+          <h4>Humidity: <span class="humidity">00</span></h4>
+          <h4>Speed: <span class="pressure">0000</span></h4>
+        </div>
+      </div>
+    </main>
+
+    <section class="more-cities mt-lg">
+      <h2 class="header-secondary">Weather Conditions in India -</h2>
+
+      <div class="cities mt-sm"></div>
+    </section>
+
+    <p class="mt-lg copyright text-center">
+      © 2024 Weather App. All rights reserved.
+    </p>
+
+    <div class="mt-sm"></div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

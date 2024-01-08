@@ -1,0 +1,64 @@
+/* VARIABLES */
+:root {
+    /* COLORS PRIMARY */
+    --green-1: #5DC576;
+    --green-2: #79CAA2;
+
+    /* COLORS GENERAL */
+    --black: #000000;
+    --white: #fff;
+    --dark-grey: #37383D;
+    --grey: rgba(164, 164, 164, 0.094);
+
+    /* COLORS SECONDARY */
+    --yellow: #fde37e;
+    --red: #ff7980;
+    --blue: #c3e9ff;
+    --light-green: #96ffd1;
+}
+
+/* CSS RESET */
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--grey);
+    padding: 1.2rem 3rem;
+}
+
+/* UTILITIES */
+.mt-x-sm {
+    margin-top: 1.5rem;
+}
+
+.mt-sm {
+    margin-top: 4rem;
+}
+
+.mt-md {
+    margin-top: 8rem;
+}
+
+.mt-lg {
+    margin-top: 16rem;
+}
+
+.mt-x-lg {
+    margin-top: 24rem;
+}
+
+.text-center {
+    text-align: center;
+}

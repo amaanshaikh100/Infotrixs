@@ -1,0 +1,159 @@
+/* HEADER */
+.header {
+    font-size: 4rem;
+    color: var(--dark-grey);
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+    text-align: center;
+}
+
+/* FORM (USER INPUT) */
+.form-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form {
+    flex-basis: 40%;
+}
+
+.city-input {
+    font-size: 1.6rem;
+    width: 80%;
+    padding: 2.1rem 1.5rem;
+    border-radius: 4rem;
+    border: none;
+    transition: all .3s ease;
+}
+
+.city-input:focus {
+    width: 90%;
+    outline: 1px solid var(--green-1);
+}
+
+.submit-btn {
+    display: inline-block;
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    padding: 1.2rem 3rem;
+    border: none;
+    border-radius: 3rem;
+    background-color: var(--green-1);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.submit-btn:hover {
+    background-color: var(--green-2);
+    transform: translateY(-.2rem);
+}
+
+
+.weather-ui {
+    background-color: var(--dark-grey);
+    padding: 2.5rem 5rem;
+    border-radius: .8rem;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.weather-location {
+    font-size: 4rem;
+    color: var(--white);
+}
+
+.temp-description,
+.weather-description {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--white);
+    letter-spacing: .08rem;
+}
+
+.temp-description span,
+.description {
+    letter-spacing: .1rem;
+    font-weight: 400;
+}
+
+.weather-temp {
+    font-size: 6rem;
+    color: var(--green-1);
+}
+
+.weather-more-details {
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+}
+
+.weather-temp-feels-like {
+    color: var(--green-2);
+    font-size: 1.8rem;
+}
+
+.weather-more-details h4 {
+    padding: .8rem 1.3rem;
+    border-radius: 10rem;
+    transition: all .3s ease;
+}
+
+.weather-more-details h4:hover {
+    transform: translateY(-.2rem);
+}
+
+.weather-more-details h4:nth-child(1) {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.weather-more-details h4:nth-child(2) {
+    background-color: var(--red);
+    color: var(--black);
+}
+
+.weather-more-details h4:nth-child(3) {
+    background-color: var(--blue);
+    color: var(--black);
+}
+
+.weather-more-details h4:nth-child(4) {
+    background-color: var(--light-green);
+    color: var(--black);
+}
+
+/* MORE CITIES */
+.header-secondary {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: var(--dark-grey);
+}
+
+.cities {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 6rem;
+}
+
+.city-description {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.city-name {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.city {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.copyright {
+    color: var(--dark-grey);
+    font-size: 2.1rem;
+}
